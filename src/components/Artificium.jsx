@@ -17,7 +17,7 @@ const Artificium = () => {
     { name: 'Brand guidelines', image: Left },
   ];
   return (
-    <div className="absolute ml-[22%] top-44 w-[77%] overflow-y-auto max-h-[73%] bottom-20 ">
+    <div className="absolute ml-[22%] top-44 w-[77%] overflow-y-auto max-h-[73%] bottom-24 ">
       <div className="w-full">
       <h1 className="text-white text-center text-2xl mb-3">Innovation Starter Pack</h1>
       <p className="text-gray-400 text-center">Kickstart your innovation with our comprehensive selection of predefined prompts</p>
