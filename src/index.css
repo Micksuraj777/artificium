@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.linear-gradient{
+    background: linear-gradient(to right, rgba(215, 237, 237, 0.16),rgba(204, 235, 235, 0));
+}
+.gradient{
+    background: linear-gradient(to right, #D7EDED29,#CCEBEB00);
+}
+::-webkit-scrollbar {
+    width: 10px; 
+}
+
+/* Track (the area on which the thumb rests) */
+::-webkit-scrollbar-track {
+    background: #131619; /* Color of the track */
+}
+
+/* Handle (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+    background: #888;/* Color of the handle */
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the handle on hover */
+}
