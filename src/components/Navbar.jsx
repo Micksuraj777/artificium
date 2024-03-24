@@ -103,7 +103,7 @@ const Navbar = () => {
             <h2 className="text-gray-500">Add new project</h2>
           </li>
         </ul>
-        <ul className="p-3 flex mt-7 linear-gradient justify-between items-center rounded-2xl mx-3 border border-[#131619]">
+        <ul className="p-3 flex absolute bottom-4 linear-gradient justify-between items-center rounded-2xl mx-3 border border-[#131619] w-[18%]">
           <li className="flex items-center">
             <img src={Hero} alt="hero" className="items-center" />
             <li>
@@ -115,8 +115,8 @@ const Navbar = () => {
             <img src={Cog} alt="cog" />
           </li>
         </ul>
+        </div>
       </div>
-    </div>
   );
 };
 
