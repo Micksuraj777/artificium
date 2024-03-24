@@ -1,9 +1,10 @@
-import React from 'react'
+import Topbar from "./Topbar"
+
 
 const Brand = () => {
   return (
     <div>
-      
+      <Topbar/>
     </div>
   )
 }

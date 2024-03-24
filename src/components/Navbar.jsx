@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Avatar from "../../public/assets/avatar.png";
 import Arrow from "../../public/assets/arrow.png";
-import Search from "../../public/assets/search.png";
 import S from "../../public/assets/s.png";
 import Folder from "../../public/assets/folder.png";
 import Square from "../../public/assets/square.png";
@@ -11,6 +10,8 @@ import Add from "../../public/assets/add.png";
 import Triangle from "../../public/assets/traiangle.png";
 import Hero from "../../public/assets/hero.png";
 import Cog from "../../public/assets/cog.png";
+import Search from "./Search";
+import Members from "./Members";
 import { useNavigate, useLocation } from "react-router-dom";
 
 const Navbar = () => {
@@ -37,20 +38,14 @@ const Navbar = () => {
             </li>
             <li className="cursor-pointer">
               <h1 className="text-white">Intellisys</h1>
-              <h2 className="text-[#B6F09C]">12 members</h2>
+              <Members/>
             </li>
           </ul>
-          <li>
-            <img src={Arrow} alt="arrow" />
-          </li>
         </ul>
         <h1 className="pl-6 text-gray-500 mb-5 mt-3">GENERAL</h1>
         <ul className="px-6 border-b border-[#131619]">
           <li className="flex justify-between items-center pb-5 cursor-pointer">
-            <li className="flex item-center">
-              <img src={Search} alt="search" className="w-[20px] h-[20px]" />
-              <h2 className="text-white pl-6">Search</h2>
-            </li>
+            <Search/>
             <span className="linear-gradient p-1 border border-[#131619] rounded-md">
               <img src={S} alt="s" className="w-[20px]" />
             </span>
